@@ -1,0 +1,76 @@
+form{
+  display: flex;
+  flex-direction: column;
+ margin-top: 2%;
+}
+form{
+  padding: 0 7%;
+}
+form h1{
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+form h2{
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+form input{
+  width: 40%;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  padding: 1.3rem 4rem;
+  border-radius: 1rem;
+  margin-top: 1%;
+  background-color: #f1f5f6;
+  border: solid 2px #d3d3d3;
+}
+form input:focus{
+  background-color: #fff;
+}
+form .btn{
+  background-color: #fdca15;
+  padding: 1.2rem 0;
+  width: 20%;
+  border-radius: 1rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+form textarea{
+  width: 40%;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  padding: 1.3rem 4rem;
+  border-radius: 1rem;
+  margin-top: 1%;
+  background-color: #f1f5f6;
+  border: solid 2px #d3d3d3;
+}
+.input{
+  position: relative;
+}
+@media(max-width:1000px){
+   form h2{
+     margin-right: 50%;
+   }
+   form input{
+     width: 50%;
+   }
+   form textarea{
+     width: 50%;
+   }
+
+}
+@media(max-width:800px){
+  form h1{
+    margin-top: 53%;
+  }
+  form input,form textarea{
+    width: 80%;
+  }
+form .btn{
+  width: 30%;
+}
+}
